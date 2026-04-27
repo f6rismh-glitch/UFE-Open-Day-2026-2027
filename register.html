@@ -1,0 +1,45 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Register — UFE</title><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet"><link rel="stylesheet" href="../styles/main.css"></head><body><div class="tricolor-bar"></div>
+<nav class="nav" id="mainNav">
+  <div class="container nav-inner">
+    <a href="../index.html" class="nav-logo"><span class="logo-text">UFE</span><span class="logo-sub">Open Day 2025</span></a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation"><span></span><span></span><span></span></button>
+    <div class="nav-links" id="navLinks">
+      <a href="about.html">About</a>
+      <a href="majors.html">Majors</a>
+      <a href="schedule.html">Schedule</a>
+      <a href="campus3d.html">Campus 3D</a>
+      <a href="quiz.html">Quiz</a>
+      <a href="admin.html">Admin</a>
+      <a href="register.html" class="nav-cta">Register Now</a>
+    </div>
+  </div>
+</nav><header class="hero--page"><div class="container"><span class="eyebrow">Free Registration</span><h1>Register for Open Day</h1><p>Secure your place at UFE Open Day 2025. Registration is free and takes less than one minute.</p></div></header><main><section class="section"><div class="container"><div class="form-shell" id="registerFormWrapper"><form id="registerForm" novalidate>
+<div class="form-row"><div class="form-group"><label class="form-label">First Name <span class="required">*</span></label><input class="form-input" name="firstName" required><div class="form-error">Required.</div></div><div class="form-group"><label class="form-label">Last Name <span class="required">*</span></label><input class="form-input" name="lastName" required><div class="form-error">Required.</div></div></div>
+<div class="form-row"><div class="form-group"><label class="form-label">Email <span class="required">*</span></label><input type="email" class="form-input" name="email" required><div class="form-error">Required.</div></div><div class="form-group"><label class="form-label">Phone Number <span class="required">*</span></label><input class="form-input" name="phone" required><div class="form-error">Required.</div></div></div>
+<div class="form-row"><div class="form-group"><label class="form-label">Age <span class="required">*</span></label><input type="number" min="10" max="99" class="form-input" name="age" required><div class="form-error">Required.</div></div><div class="form-group"><label class="form-label">Current School</label><input class="form-input" name="school"></div></div>
+<div class="form-row"><div class="form-group"><label class="form-label">City / Area <span class="required">*</span></label><input class="form-input" name="city" required><div class="form-error">Required.</div></div><div class="form-group"><label class="form-label">Location <span class="required">*</span></label><select class="form-select" name="location" required><option value="">Select</option><option value="inside">Inside Egypt</option><option value="outside">Outside Egypt</option></select><div class="form-error">Required.</div></div></div>
+<div class="form-group form-group--conditional" id="countryGroup"><label class="form-label">Country <span class="required">*</span></label><input class="form-input" name="country"><div class="form-error">Required.</div></div>
+<div class="form-group"><label class="form-label">Preferred Major <span class="required">*</span></label><select class="form-select" name="major" required><option value="">Select</option><option value="management">Management / Economics</option><option value="digital-marketing">Digital Marketing</option><option value="bis">BIS</option><option value="mechanical">Mechanical Engineering</option><option value="architecture">Architecture</option><option value="computer">Computer Engineering</option><option value="languages">Applied Languages</option><option value="undecided">Undecided</option></select><div class="form-error">Required.</div></div>
+<div class="form-row"><div class="form-group"><label class="form-label">Preferred Activity</label><select class="form-select" name="activity"><option value="">Select</option><option>Campus Tour</option><option>3D New Campus Preview</option><option>Major Discovery Session</option><option>Quiz Game</option><option>Faculty Q&A</option><option>Admissions Guidance</option></select></div><div class="form-group"><label class="form-label">How did you hear about us?</label><select class="form-select" name="heardAbout"><option value="">Select</option><option>School</option><option>Friend</option><option>Facebook</option><option>Instagram</option><option>TikTok</option><option>YouTube</option><option>Other</option></select></div></div>
+<div class="form-group"><label class="form-checkbox-label"><input type="checkbox" name="consent" required> I agree that UFE may use my contact information to send updates about Open Day 2025 and admissions information. <span class="required">*</span></label><div class="consent-error" id="consentError">You must agree to continue.</div></div>
+<button class="btn btn-primary" style="width:100%" type="submit">Complete Registration</button>
+</form></div><div class="form-success" id="formSuccess"><div class="form-success-icon">✓</div><h2>You’re Registered!</h2><p>We’ve received your registration for UFE Open Day 2025.</p><div class="hero-actions" style="justify-content:center"><a class="btn btn-secondary" href="schedule.html">View Schedule</a><a class="btn btn-primary" href="campus3d.html">Explore 3D Campus</a></div></div></div></section></main><footer class="footer">
+  <div class="container footer-inner">
+    <div>
+      <div class="footer-logo">UFE</div>
+      <p class="footer-tagline">French University in Egypt • Open Day 2025</p>
+    </div>
+    <div class="footer-links">
+      <a href="../index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="majors.html">Majors</a>
+      <a href="schedule.html">Schedule</a>
+      <a href="campus3d.html">Campus 3D</a>
+      <a href="quiz.html">Quiz</a>
+      <a href="admin.html">Admin</a>
+      <a href="register.html">Register</a>
+    </div>
+  </div>
+</footer><script src="../js/data.js"></script><script src="../js/main.js"></script></body></html>

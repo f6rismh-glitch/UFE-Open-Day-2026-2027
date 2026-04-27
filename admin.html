@@ -1,0 +1,35 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Admin — UFE</title><link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet"><link rel="stylesheet" href="../styles/main.css"></head><body><div class="tricolor-bar"></div>
+<nav class="nav" id="mainNav">
+  <div class="container nav-inner">
+    <a href="../index.html" class="nav-logo"><span class="logo-text">UFE</span><span class="logo-sub">Open Day 2025</span></a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation"><span></span><span></span><span></span></button>
+    <div class="nav-links" id="navLinks">
+      <a href="about.html">About</a>
+      <a href="majors.html">Majors</a>
+      <a href="schedule.html">Schedule</a>
+      <a href="campus3d.html">Campus 3D</a>
+      <a href="quiz.html">Quiz</a>
+      <a href="admin.html">Admin</a>
+      <a href="register.html" class="nav-cta">Register Now</a>
+    </div>
+  </div>
+</nav><header class="hero--page"><div class="container"><span class="eyebrow">Private Portal</span><h1>Admin Dashboard</h1><p>Access registrations and Open Day visitor data. Login: admin / ufe2025</p></div></header><main><section class="section"><div class="container"><div class="admin-login" id="adminLogin"><h2>Admin Access</h2><p class="text-muted">Sign in to view registrations.</p><div class="admin-error" id="adminError">Invalid credentials.</div><form id="adminLoginForm"><div class="form-group"><label class="form-label">Username</label><input class="form-input" name="username" required></div><div class="form-group"><label class="form-label">Password</label><input type="password" class="form-input" name="password" required></div><button class="btn btn-primary" style="width:100%" type="submit">Sign In</button></form></div><div class="admin-dashboard" id="adminDashboard"><div class="admin-header"><div><h2>Open Day Dashboard</h2><p>Registration overview for September 1, 2025.</p></div><div class="hero-actions"><button class="admin-csv-btn" id="adminCsvBtn">Export CSV</button><button class="btn btn-secondary" id="adminLogout">Sign Out</button></div></div><div class="admin-stats"><div class="admin-stat-card"><div class="admin-stat-card-label">Total Registrations</div><div class="admin-stat-card-value" id="adminTotal">0</div></div><div class="admin-stat-card"><div class="admin-stat-card-label">Today</div><div class="admin-stat-card-value" id="adminToday">0</div></div><div class="admin-stat-card"><div class="admin-stat-card-label">Majors</div><div class="admin-stat-card-value">7</div></div></div><h3>Preferred Major Statistics</h3><div class="admin-bar-chart" id="adminChart"></div><h3>Registered Users</h3><div style="overflow-x:auto"><table class="admin-table"><thead><tr><th>Name</th><th>Email</th><th>Major</th><th>Date</th></tr></thead><tbody id="adminTableBody"></tbody></table></div></div></div></section></main><footer class="footer">
+  <div class="container footer-inner">
+    <div>
+      <div class="footer-logo">UFE</div>
+      <p class="footer-tagline">French University in Egypt • Open Day 2025</p>
+    </div>
+    <div class="footer-links">
+      <a href="../index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="majors.html">Majors</a>
+      <a href="schedule.html">Schedule</a>
+      <a href="campus3d.html">Campus 3D</a>
+      <a href="quiz.html">Quiz</a>
+      <a href="admin.html">Admin</a>
+      <a href="register.html">Register</a>
+    </div>
+  </div>
+</footer><script src="../js/data.js"></script><script src="../js/main.js"></script></body></html>
